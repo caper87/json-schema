@@ -1,5 +1,5 @@
 {
-    "name": "justinrainbow/json-schema",
+    "name": "caper87/json-schema",
     "description": "A library to validate a json schema.",
     "keywords": ["json", "schema"],
     "homepage": "https://github.com/justinrainbow/json-schema",
@@ -45,10 +45,10 @@
         "phpunit/phpunit": "^4.8.35"
     },
     "autoload": {
-        "psr-4": { "JsonSchema\\": "src/JsonSchema/" }
+        "psr-4": { "CaperJsonSchema\\": "src/JsonSchema/" }
     },
     "autoload-dev": {
-        "psr-4": { "JsonSchema\\Tests\\": "tests/" }
+        "psr-4": { "CaperJsonSchema\\Tests\\": "tests/" }
     },
     "bin": ["bin/validate-json"],
     "extra": {
